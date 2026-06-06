@@ -2,7 +2,7 @@ import type {
   ExcalidrawElementSkeleton,
   ValidContainer,
   ValidLinearElement,
-} from "@excalidraw/element/transform";
+} from "@excalidraw/excalidraw/data/transform";
 import type { LocalPoint } from "@excalidraw/math/types";
 import { Arrow, Line, Node, Text } from "../elementSkeleton.js";
 

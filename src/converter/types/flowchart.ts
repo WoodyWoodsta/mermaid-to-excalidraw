@@ -2,7 +2,7 @@ import { GraphConverter } from "../GraphConverter.js";
 import type {
   ExcalidrawElementSkeleton,
   ValidLinearElement,
-} from "@excalidraw/element/transform";
+} from "@excalidraw/excalidraw/data/transform";
 import type { LocalPoint } from "@excalidraw/math/types";
 
 const localPoint = (x: number, y: number) => [x, y] as LocalPoint;

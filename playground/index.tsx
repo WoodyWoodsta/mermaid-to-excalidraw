@@ -155,7 +155,7 @@ const App = () => {
   const handleInsertMermaidSvg = useCallback(
     (svgHtml: string, width: number, height: number) => {
       const api = excalidrawAPIRef.current;
-      if (!api || api.isDestroyed) {
+      if (!api) {
         return;
       }
 
